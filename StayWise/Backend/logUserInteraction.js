@@ -11,7 +11,7 @@ const logUserInteraction = async () => {
   if (user && motelId) {
     try {
       console.log('Logging interaction with:', { userId: user.id, motelId }); // Debugging log
-      await axios.post('http://localhost:5000/log-interaction', {
+      await axios.post('http://98.81.233.189:5000/log-interaction', {
         userId: user.id,
         motelId,
       });

@@ -17,4 +17,4 @@ RUN cd Backend && npm install
 EXPOSE 3000 5000
 
 # Command to run the frontend and backend services in parallel
-CMD ["sh", "-c", "cd Backend && nodemon server.js & cd Staywise && npm start"]
+CMD ["sh", "-c", "cd Backend && nodemon server.js & cd staywise && npm start"]
